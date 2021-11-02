@@ -1,0 +1,59 @@
+@media (max-width: 1200px) {
+    .header {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .description-input {
+           width: 600px;
+    }
+    .auth-block {
+        width: 500px;
+    }
+    .form {
+        width: 500px;
+    }
+    .main-info {
+        justify-content: space-evenly;
+    }
+    .info {
+        font-size: 10px;
+    }
+    .info-a {
+        width: 30px; 
+        height: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .auth {
+        justify-content: space-around
+    }
+    .form {
+        max-width: 300px;
+        width: 100%;
+        
+    }
+    .auth-block {
+        max-width: 300px;
+        width: 100%;
+    }
+    .description {
+        display: none;
+    }
+    .pictures {
+        flex-wrap: wrap;
+    }
+    .pictures > img {
+        margin-bottom: 20px;
+    }
+    .about {
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-bar{
+        display: inline-block;
+        top: 0;
+    }
+}
